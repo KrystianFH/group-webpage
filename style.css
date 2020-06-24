@@ -1,0 +1,22 @@
+body {background-color: rgb(3, 23, 59);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav > ul >li {
+    display: inline;
+    border: solid 3px;
+    border-color: rgb(131, 33, 4);
+    background-color: rgb(243, 205, 34);
+    padding: 7px;
+    margin: 5px 40px 20px 40px;
+}
+
+nav > ul {text-align: center;}
+
+h1 {
+    text-align: center;
+    color: whitesmoke
+}
+p { 
+    color: whitesmoke
+}
