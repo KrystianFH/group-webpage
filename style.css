@@ -1,21 +1,22 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 background-image: url(https://i1.wp.com/css-tricks.com/wp-content/uploads/2018/02/multiple-bg-images.jpg?ssl=1);
+background-repeat: repeat-y; background-size: 95%; background-position: center;
 }
 
 nav > ul >li {
     display: inline;
-    border: solid 3px;
+    border: solid 5px; border-style: outset;
     border-color: rgb(131, 33, 4);
     background-color: rgb(243, 205, 34);
     padding: 7px;
-    margin: 5px 40px 20px 40px;
+    margin: 100px;
 }
 
 nav > ul {text-align: center;}
 
 h1 {
-    color: rgb(23, 182, 255); 
+    font-size: 300%; color:  rgb(23, 182, 255); margin-top: 70px; margin-bottom: 50px;
 }
 p { 
     color: rgb(23, 182, 255)
@@ -26,3 +27,17 @@ p {
 }
 
 #food-section {text-align: center;}
+
+#words {text-align: center;}
+
+#why {float: left; width: 300px; height: 300px; margin-left: 300px;}
+
+#list1 {float: right; margin-right: 400px; margin-top: 50px; margin-bottom: 1px; font-size: 250%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#list2 {float: right; margin-right: 400px; margin-top: 5px; margin-left: 10px; navy; font-size: 140%; font-family: Verdana, Geneva, Tahoma, sans-serif; color: orange; font-weight: bold;}
+
+#logo {text-align: center; font-size: 75%;}
+
+footer {text-align: center;
+position: bottom; font-family: fantasy; font-size: 150%; color: purple; margin-top: 300px;
+}
