@@ -1,6 +1,4 @@
-
-
-    'use strict'
+'use strict'
 
 
     function askUserName(){
@@ -36,6 +34,3 @@
     confirmContinue(externalUserName);  // this is passing an argument
     var preferenceQuestion = preference();
     checkPoint(preferenceQuestion);
-    
-    
-    
