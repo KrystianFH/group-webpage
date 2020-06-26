@@ -48,8 +48,6 @@ var ableToEat = false;
     }
     
     var externalUserName = askUserName();
-    confirmContinue(askUserName());  
-    
     var preferenceQuestion = preference();
     checkPoint(preferenceQuestion);
     foodTest();
