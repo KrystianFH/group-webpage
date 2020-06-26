@@ -30,25 +30,26 @@ var ableToEat = false;
         }
     }
 
-    function foodTest(){      // i++
+    function foodTest() {     
         var answer = 22;
         for(var i = 0; i < 10; i = i + 1){
             var userAnswer = prompt("Please guess a number between 1 and 100");
             if(parseInt(userAnswer) ===  answer){
                 alert('You win the right to make all of these recipes as many times as you wish!')
-                ableToEat = true;
+                ableToEat = true; 
                 break;
-            } else{
-                alert("Wrong Answer.  Try again")
+                } else {
+                alert("Wrong Answer. Try again")
             }
         }
         if(i > 9){
             ableToEat = false;
         }
-    
+    }
     
     var externalUserName = askUserName();
     confirmContinue(askUserName());  
+    foodTest();
     var preferenceQuestion = preference();
     checkPoint(preferenceQuestion);
-    foodTest();
+    
